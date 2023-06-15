@@ -1,0 +1,129 @@
+:root {
+    --vt-c-white: #ffffff;
+    --vt-c-white-soft: #f8f8f8;
+    --vt-c-white-mute: #f2f2f2;
+    --vt-c-white-mute-2: #768fa5;
+  
+    --vt-c-black: #1d3b4f;
+    --vt-c-black-soft: #222222;
+    --vt-c-black-mute: #282828;
+  
+    --vt-c-indigo: #2c3e50;
+  
+    --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+    --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+
+    --vt-c-divider-dark-1: #2d4b65;
+    --vt-c-divider-dark-2: #2a4863;
+  
+    --vt-c-text-light-1: var(--vt-c-indigo);
+    --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
+    --vt-c-text-dark-1: var(--vt-c-white);
+    --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+}
+  
+  /* semantic color variables for this project */
+:root {
+    --color-background: var(--vt-c-white);
+    --color-background-soft: var(--vt-c-white-soft);
+    --color-background-mute: var(--vt-c-white-mute);
+  
+    --color-border: var(--vt-c-divider-light-2);
+    --color-border-hover: var(--vt-c-divider-light-1);
+  
+    --color-heading: var(--vt-c-text-light-1);
+    --color-text: var(--vt-c-text-light-1);
+  
+    --section-gap: 160px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+      --color-background: var(--vt-c-black);
+      --color-background-soft: var(--vt-c-black-soft);
+      --color-background-mute: var(--vt-c-black-mute);
+  
+      --color-border: var(--vt-c-divider-dark-2);
+      --color-border-hover: var(--vt-c-divider-dark-1);
+  
+      --color-heading: var(--vt-c-text-dark-1);
+      --color-text: var(--vt-c-text-dark-2);
+    }
+}
+  
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: normal;
+}
+
+body{
+    background-color: var(--vt-c-black) !important;
+    color: var(--vt-c-white-mute);
+}
+.ant-layout{
+    background-color: transparent !important;
+}
+
+.vue-mode-dark{   
+    background-color: transparent;
+
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    @media (min-width: 500px) {
+        .container {
+            width: 500px;
+        }
+    }
+    @media (min-width: 576px) {
+        .container {
+            width: 576px;
+        }
+    }
+    @media (min-width: 640px) {
+        .container {
+            width: 640px;
+        }
+    }
+    @media (min-width: 768px) {
+        .container {
+            width: 768px;
+        }
+    }
+    @media (min-width: 1024px) {
+        .container {
+            width: 1024px;
+        }
+    }
+    @media (min-width: 1280px) {
+        .container {
+            width: 1200px;
+        }
+    }
+    @media (min-width: 1536px) {
+        .container {
+            width: 1200px;
+        }
+    }
+
+    .text-header{
+        li{
+            *{
+                color: #72b0d9 !important
+            }
+        }
+    }
+
+    @import './card.scss';
+    @import './list.scss';
+    @import './table.scss';    
+    @import './button.scss';
+    @import './input.scss';
+}
+
+@import './drawer.scss';

@@ -1,0 +1,10 @@
+.ant-card{
+    background-color: var(--vt-c-divider-dark-1);
+    color: var(--vt-c-white-mute);
+    border-radius: 10px;
+    box-shadow: 0 6px 20px #0000001a !important;
+
+    .ant-card-bordered {
+        border: 1px solid var(--vt-c-divider-dark-2);
+    }
+}

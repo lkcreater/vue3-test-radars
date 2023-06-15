@@ -1,0 +1,16 @@
+.ant-list{
+    &.ant-list-split{
+        .ant-list-item {
+            border-bottom: 1px solid #355169;
+        }
+    }
+
+    .ant-list-items{
+        .ant-list-item-meta-title{
+            color: var(--vt-c-white);
+        }
+        .ant-list-item-meta-description{
+            color: var(--vt-c-white-mute-2);
+        }
+    }
+}

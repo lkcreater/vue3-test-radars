@@ -1,0 +1,77 @@
+.table-dark{
+    &.table-market-cap{
+        .ant-table-column-sorter {
+            position: absolute;
+        }
+        .ant-table-column-sorters {
+            .ant-table-column-title{
+                margin-left: 25px;
+            }
+        }
+    }
+
+    .ant-table.ant-table-fixed-header.ant-table-fixed-column{
+        background: transparent;
+        color: #ebe7e7d9;
+
+        .text-small{
+            font-size: 11px;
+            color: #ffffff59;
+        }
+
+        .ant-table-thead > tr > th {
+            background-color: #203f5a;
+            color: #d4d4d4d9;
+            border-bottom: 1px solid #3d5a74;
+        }
+
+        .ant-table-tbody > tr > td.ant-table-column-sort{
+            background-color: transparent;
+        }
+
+        .ant-table-tbody > tr > td {
+            border-bottom: 1px solid #39546f;
+            transition: background 0.3s;
+        }
+
+        .ant-table-tbody > tr.ant-table-row:hover > td, .ant-table-tbody > tr > td.ant-table-cell-row-hover {
+            background: #284158;
+        }
+
+        .ant-table-cell-fix-left, .ant-table-cell-fix-right {
+            position: sticky !important;
+            z-index: 2;
+            background: #0000001c;
+        }
+
+        
+    }
+
+    .ant-pagination{
+        .ant-pagination-item,
+        .ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link {
+            background-color: #4c89ba;
+            border: 1px solid #4c89ba;
+        }
+
+        .ant-pagination-disabled .ant-pagination-item-link, .ant-pagination-disabled:hover .ant-pagination-item-link {
+            color: rgba(0, 0, 0, 0.25);
+            border-color: #4c89ba;
+            cursor: not-allowed;
+        }
+
+        .ant-pagination-prev:hover .ant-pagination-item-link, .ant-pagination-next:hover .ant-pagination-item-link {
+            color: #ffffff;
+            border-color: #4c89ba;
+        }
+
+        .ant-pagination-prev button, .ant-pagination-next button, 
+        .ant-pagination-item a {
+            color: #acacac;
+        }
+
+        .ant-pagination-item-active a {
+            color: #ffffff;
+        }
+    }
+}

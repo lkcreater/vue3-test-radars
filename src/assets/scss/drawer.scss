@@ -1,0 +1,35 @@
+.ant-drawer.drawer-dark{
+    .ant-drawer-header{
+        .ant-drawer-close,
+        .ant-drawer-title{
+            color: #fff;
+        }
+        
+        background-color: var(--vt-c-divider-dark-1);
+        border-color: #39607e;
+    }
+
+    .ant-drawer-content {
+        background-color: var(--vt-c-divider-dark-2);
+
+        .ant-drawer-body{
+            color: #fff;
+        }
+    }
+
+    .data-detail{
+
+        .content{
+            margin-bottom: 15px;
+
+            .title{
+                color: #03a9f4;
+            }
+
+            .detail{
+                color: #9e9e9e;
+                font-size: 13px;
+            }
+        }
+    }
+}

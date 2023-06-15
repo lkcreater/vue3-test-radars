@@ -1,0 +1,25 @@
+.ant-form-item-label > label {
+    color: #cfcdcdd9;
+    height: 41px;
+}
+.ant-input{
+    color: #d3d3d3d9;
+    font-size: 20px;
+    line-height: 1.5715;
+    background-color: #a4a4a412;
+    border: 1px solid #d9d9d926;
+    border-radius: 5px;
+}
+
+.ant-form-item-has-error :not(.ant-input-disabled):not(.ant-input-borderless).ant-input,
+.ant-form-item-has-error :not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper, 
+.ant-form-item-has-error :not(.ant-input-number-affix-wrapper-disabled):not(.ant-input-number-affix-wrapper-borderless).ant-input-number-affix-wrapper, 
+.ant-form-item-has-error :not(.ant-input-disabled):not(.ant-input-borderless).ant-input:hover, 
+.ant-form-item-has-error :not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper:hover, 
+.ant-form-item-has-error :not(.ant-input-number-affix-wrapper-disabled):not(.ant-input-number-affix-wrapper-borderless).ant-input-number-affix-wrapper:hover {
+    background-color: #a4a4a412;
+    border-color: #ff7272;
+}
+.ant-form-item-explain-error {
+    color: #ff8f90;
+}
